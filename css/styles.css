@@ -36,7 +36,7 @@ body {
    font-family: var(--primary-font);
    font-size: var(--text-size);
    letter-spacing: var(--letter-spacing);
-   background-color: var(--main-background);
+   background-color: var(--main-backround);
    font-style: normal;
 }
 
@@ -195,7 +195,7 @@ img {
 .link-contact-footer:focus {
    color: var(--blue-color);
 }
-
+/* =========================== */
 .container-title {
    text-align: center;
 }
@@ -531,6 +531,7 @@ img {
    line-height: 1.71;
    color: var(--title-color);
 }
+/* ===================== */
 
 .direction-title,
 .team__title,
@@ -657,7 +658,6 @@ img {
 .clients__item {
    width: 170px;
    height: 92px;
-
 }
 
 .clients__item:not(:last-child) {

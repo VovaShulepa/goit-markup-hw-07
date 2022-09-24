@@ -1,0 +1,93 @@
+.header {
+   height: 80px;
+   border-bottom: 1px solid $header__border-cl;
+}
+.nav-menu {
+   display: flex;
+}
+
+.list-contact {
+   margin-left: auto;
+}
+.nav-menu {
+&__item:not(:last-child) {
+   margin-right: 50px;
+}
+}
+.list-contact{
+    &__item:not(:last-child) {
+   margin-right: 50px;
+}
+}
+.underscore {
+   position: relative;
+   padding-bottom: 32px;
+   padding-top: 32px;
+   
+      &.current::after {
+   content: '';
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 4px;
+   bottom: 0;
+   border-radius: 2px;
+   background-color: $blue-color;
+}}
+
+.webstudio,
+.webstudio-foot {
+   font-family: $secondary-font;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   color: $blue-color;
+}
+.webstudio-header {
+   margin-right: 93px;
+   padding-top: 24px;
+   padding-bottom: 25px;
+}
+.studio {
+   color: $black-color;
+}
+.studio1 {
+   color: $main-backround;
+}
+
+.link {
+   color: $main-color;
+}
+.list-contact__link,
+.link-contact-footer {
+   color: $title-color;
+}
+
+.link,
+.list-contact__link {
+   font-size: $text-size;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   transition: color $main-transition;
+   &:hover,
+   &:focus {
+   color: $blue-color;
+   }
+}
+.list-contact__item {
+   color: $title-color;
+   font-weight: 500;
+}
+
+.header-tel-icon,
+.header-mail-icon {
+   margin-right: 10px;
+   fill: currentColor;
+}
+
+.current {
+   color: $blue-color;
+}

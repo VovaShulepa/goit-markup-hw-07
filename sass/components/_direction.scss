@@ -1,0 +1,38 @@
+.direction-title,
+.team__title,
+.clients__title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   color: var(--main-color);
+   text-align: center;
+   margin: 0 0 50px;
+}
+
+.direction__list {
+   display: flex;
+   gap: 30px;
+   margin: 0;
+   padding: 0;
+}
+
+.direction__item {
+   position: relative;
+}
+
+
+.direction__about {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 70px;
+   font-weight: 700;
+   line-height: 1.14;
+   text-transform: uppercase;
+   color: $main-backround;
+   background-color: $overlay-background;
+}

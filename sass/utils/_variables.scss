@@ -1,0 +1,48 @@
+/* ============text=========== */
+   $primary-font: 'Roboto',
+      sans-serif;
+   $secondary-font: 'Raleway',
+      sans-serif;
+
+   $text-size: 14px;
+   $letter-spacing: 0.03em;
+   $container-size: 1200px;
+
+   /* =========colors========= */
+   $main-color: #212121;
+   $title-color: #757575;
+   $main-backround: #FFF;
+   $secondary-background: #2F303A;
+   $third-background: #F5F4FA;
+   $black-color: #000;
+   $blue-color: #2196F3;
+   $social-color: #AFB1B8;
+   $footer-socials: rgba(255, 255, 255, 0.1);
+   $overlay-background: rgba(47, 48, 58, 0.8);
+   $subscribe-border: 1px solid rgba(255, 255, 255, 0.3);
+   $subscribe-text: rgba(255, 255, 255, 0.6);
+   $subscribe-drop: rgba(0, 0, 0, 0.15);
+   $modal-border: rgba(33, 33, 33, 0.2);
+   $modal-textarea: rgba(117, 117, 117, 0.5);
+   $btn-hover: #188CE8;
+   $header__border-cl: #ECECEC;
+   $hero-overlay: rgba(47, 48, 58, 0.4);
+   $btn-focus-cl: #1270bd;
+   $backdrop-cl: rgba(0, 0, 0, 0.2);
+   $modal__box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   $modal__close-btn: rgba(0, 0, 0, 0.1);
+   $team_box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$filter__btn__box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+      0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+
+      $projects__box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+$projects-border: #eeeeee;
+$projects-cards__background: rgba(33, 150, 243, 0.9);
+
+
+
+   /* ==========animations========== */
+   $main-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+

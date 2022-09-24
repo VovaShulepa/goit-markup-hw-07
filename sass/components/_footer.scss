@@ -1,0 +1,132 @@
+
+.footer {
+   background-color: $secondary-background;
+   padding: 60px 0;
+}
+
+.link-contact-footer {
+   font-weight: 400;
+   font-size: $text-size;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   &:hover{
+      color: $blue-color;
+   }
+}
+
+.contact-footer {
+   padding-left: 0px;
+   margin-top: 20px;
+   &__list:not(:last-child) {
+   margin-bottom: 9px;
+  }
+}
+.link-contact-foot {
+  font-weight: 400;
+}
+.address {
+   font-size: var(--text-size);
+   line-height: 1.71;
+   color: $main-backround;
+}
+// =============socials=====================
+
+.footer-socials__title,
+.footer-subscribe__title {
+   display: inline-block;
+   font-weight: 700;
+   line-height: 1.14;
+   text-transform: uppercase;
+   color: $main-backround;
+   margin-bottom: 20px;
+}
+
+.footer-socials__list {
+   display: flex;
+   justify-content: center;
+   width: 206px;
+   height: 44px;
+}
+.footer-socials__item:not(:last-child) {
+   margin-right: 10px;
+}
+.footer-socials__link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   color: $main-backround;
+   border-radius: 50px;
+   background-color: $footer-socials;
+   transition: background-color $main-transition,
+      color $main-transition;
+
+      &:hover,
+      &:focus {
+        background-color: $blue-color;
+   color: $main-backround;
+}
+}
+
+.footer-socials__icon {
+   fill: currentColor;
+}
+.foot-flex {
+   display: flex;
+   align-items: baseline;
+}
+
+.footer-socials {
+   margin-left: 70px;
+}
+
+// =============subscribe=====================
+
+.footer-subscribe__form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-subscribe__form input {
+   display: flex;
+   align-items: center;
+   width: 358px;
+   height: 50px;
+   border-radius: 4px;
+   padding: 0 16px;
+   color: $subscribe-text;
+   background-color: inherit;
+   font-size: 16px;
+   line-height: 1.25;
+   border: $subscribe-border;
+   filter: drop-shadow(0px 4px 4px $subscribe-drop);
+}
+
+.footer-subscribe {
+   margin-left: auto;
+
+&__btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   width: 200px;
+   height: 50px;
+   border-radius: 4px;
+   margin-left: 12px;
+   padding: 10px 28px;
+   color: $main-backround;
+   background-color: $blue-color;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 1.18;
+   letter-spacing: 00.06em;
+   border: 0;
+   box-shadow: 0px 4px 4px $subscribe-drop;
+}}
+.footer-subscribe__icon {
+   fill: currentColor;
+}
+

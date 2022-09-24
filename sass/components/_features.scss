@@ -1,0 +1,41 @@
+.about {
+   display: flex;
+   gap: 30px;
+}
+
+.features__icon-wrap {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 270px;
+   height: 120px;
+   margin-bottom: 30px;
+   background: $third-background;
+   border-radius: 4px;
+}
+
+.features__icon {
+   width: 70px;
+   height: 70px;
+}
+
+.features__item {
+   width: 270px;
+}
+
+.direction {
+   padding-top: 0;
+}
+.title {
+   font-weight: 700;
+   font-size: $text-size;
+   line-height: 16px;
+   text-transform: uppercase;
+   color: $main-color;
+   margin-bottom: 10px;
+}
+.post {
+   font-size: $text-size;
+   line-height: 1.71;
+   color: $title-color;
+}

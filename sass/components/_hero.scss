@@ -1,0 +1,50 @@
+.container-title {
+   text-align: center;
+}
+
+.about-overlay {
+   max-width: 1600px;
+   height: 600px;
+   background-color: $secondary-background;
+   padding: 200px 0;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: linear-gradient($hero-overlay, $hero-overlay),
+      url('../images/back-img.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.main-title {
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   color: $main-backround;
+   margin-bottom: 30px;
+   width: 696px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.btn {
+   font-family: inherit;
+   cursor: pointer;
+   font-weight: 700;
+   font-size: 16px;
+   background-color: $blue-color;
+   color: $main-backround;
+   padding: 10px 32px;
+   border: none;
+   border-radius: 4px;
+   letter-spacing: 0.06em;
+   line-height: 30px;
+   transition: background-color $main-transition,
+      color $main-transition;
+
+      &:hover,
+      &:focus {
+   box-shadow: 0px 4px 4px $subscribe-drop;
+   background-color: $btn-focus-cl;
+}
+}

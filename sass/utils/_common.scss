@@ -1,0 +1,76 @@
+
+body {
+   font-family: $primary-font, sans-serif;
+   font-size: $text-size;
+   letter-spacing: $letter-spacing;
+   background-color: $main-backround;
+   font-style: normal;
+   color: $main-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+   font-style: normal;
+}
+
+ul {
+   list-style: none;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+.section {
+   padding: 94px 0;
+}
+
+.container {
+   width: 1200px;
+   padding: 0 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.link {
+   color: $main-color;
+}
+
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+}
+
+.current {
+   color: $blue-color;
+}
