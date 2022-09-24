@@ -58,17 +58,6 @@
     border: 1px solid $projects-border;
     border-top: none;
   }
-
-  &__link {
-    display: block;
-    transition: box-shadow $main-transition;
-
-    &:hover,
-    &:focus {
-      box-shadow: $projects__box-shadow;
-    }
-  }
-
   &__tag {
     color: $title-color;
     font-size: 16px;
@@ -81,22 +70,32 @@
   }
 }
 
+.project__link {
+  display: block;
+  transition: box-shadow $main-transition;
+
+  &:hover,
+  &:focus {
+    box-shadow: $projects__box-shadow;
+  }
+}
+
 .project__description {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 63px 24px;
-   font-size: 18px;
-   line-height: 1.56;
-   color: $main-backround;
-   background-color: $projects-cards__background;
-   transform: translateY(100%);
-   transition: transform $main-transition;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  color: $main-backround;
+  background-color: $projects-cards__background;
+  transform: translateY(100%);
+  transition: transform $main-transition;
 }
 
 .project__link:hover .project__description {

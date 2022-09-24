@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", sans-serif, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  background-color: #FFF;
+  background-color: #fff;
   font-style: normal;
   color: #212121;
 }
@@ -79,12 +79,12 @@ button:hover {
 }
 
 .current {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .header {
   height: 80px;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-menu {
@@ -118,7 +118,7 @@ button:hover {
   height: 4px;
   bottom: 0;
   border-radius: 2px;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .webstudio,
@@ -127,7 +127,7 @@ button:hover {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .webstudio-header {
@@ -141,7 +141,7 @@ button:hover {
 }
 
 .studio1 {
-  color: #FFF;
+  color: #fff;
 }
 
 .link {
@@ -171,7 +171,7 @@ button:hover {
 .link:hover, .link:focus,
 .list-contact__link:hover,
 .list-contact__link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .list-contact__item {
@@ -186,11 +186,11 @@ button:hover {
 }
 
 .current {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
   padding: 60px 0;
 }
 
@@ -201,7 +201,7 @@ button:hover {
   letter-spacing: 0.02em;
 }
 .link-contact-footer:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .contact-footer {
@@ -219,7 +219,7 @@ button:hover {
 .address {
   font-size: var(--text-size);
   line-height: 1.71;
-  color: #FFF;
+  color: #fff;
 }
 
 .footer-socials__title,
@@ -228,7 +228,7 @@ button:hover {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -259,15 +259,15 @@ button:hover {
           align-items: center;
   width: 44px;
   height: 44px;
-  color: #FFF;
+  color: #fff;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials__link:hover, .footer-socials__link:focus {
-  background-color: #2196F3;
-  color: #FFF;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 .footer-socials__icon {
@@ -338,8 +338,8 @@ button:hover {
   border-radius: 4px;
   margin-left: 12px;
   padding: 10px 28px;
-  color: #FFF;
-  background-color: #2196F3;
+  color: #fff;
+  background-color: #2196f3;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.18;
@@ -360,7 +360,7 @@ button:hover {
 .about-overlay {
   max-width: 1600px;
   height: 600px;
-  background-color: #2F303A;
+  background-color: #2f303a;
   padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
@@ -376,7 +376,7 @@ button:hover {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 30px;
   width: 696px;
   margin-left: auto;
@@ -388,8 +388,8 @@ button:hover {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  background-color: #2196F3;
-  color: #FFF;
+  background-color: #2196f3;
+  color: #fff;
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
@@ -431,7 +431,7 @@ button:hover {
   top: 50%;
   left: 50%;
   padding: 40px;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 4px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -466,7 +466,7 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #FFF;
+  background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -477,7 +477,7 @@ button:hover {
 }
 .modal__close-icon:hover {
   cursor: pointer;
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal-form {
@@ -512,7 +512,7 @@ button:hover {
 
 .modal-form__field input:focus,
 .modal-form__textarea textarea:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
   outline: transparent;
 }
 
@@ -526,14 +526,14 @@ button:hover {
 }
 
 .modal-form__field input:focus + .modal-form-icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal-form-icon {
   position: absolute;
   bottom: 11px;
   left: 12px;
-  fill: #2F303A;
+  fill: #2f303a;
 }
 
 .modal-form__textarea {
@@ -597,7 +597,7 @@ button:hover {
   margin-right: 7px;
 }
 .modal-policy a {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .undescore-a {
@@ -631,8 +631,8 @@ button:hover {
 }
 
 .modal-form__policy-checkbox:checked + .modal-form__policy-icon {
-  background-color: #2196F3;
-  border: 1px solid #2196F3;
+  background-color: #2196f3;
+  border: 1px solid #2196f3;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -644,8 +644,8 @@ button:hover {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #FFF;
-  background-color: #2196F3;
+  color: #fff;
+  background-color: #2196f3;
   border: none;
   border-radius: 4px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -653,7 +653,7 @@ button:hover {
 }
 .modal-form__submit-btn:hover {
   cursor: pointer;
-  background: #188CE8;
+  background: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -678,7 +678,7 @@ button:hover {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -752,12 +752,12 @@ button:hover {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
   background-color: rgba(47, 48, 58, 0.8);
 }
 
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .team__name {
   font-weight: 500;
@@ -774,7 +774,7 @@ button:hover {
   margin-bottom: 16px;
 }
 .team__item {
-  background: #FFF;
+  background: #fff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -814,7 +814,7 @@ button:hover {
           align-items: center;
   width: 100%;
   height: 100%;
-  color: #AFB1B8;
+  color: #afb1b8;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -822,8 +822,8 @@ button:hover {
 .team__socials__link:hover,
 .team__socials__link:focus {
   border-radius: 50%;
-  background-color: #2196F3;
-  color: #FFF;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 .team__socials__icon {
@@ -856,15 +856,15 @@ button:hover {
           align-items: center;
   width: 100%;
   height: 100%;
-  color: #AFB1B8;
-  border: 1px solid #AFB1B8;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__link:hover, .clients__link:focus {
-  color: #2196F3;
-  border: 1px solid #2196F3;
+  color: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .clients__icon {
@@ -873,7 +873,7 @@ button:hover {
 
 .filter__btn {
   font-family: inherit;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
@@ -889,8 +889,8 @@ button:hover {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter__btn:hover, .filter__btn:focus {
-  color: #FFF;
-  background-color: #2196F3;
+  color: #fff;
+  background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -940,17 +940,6 @@ button:hover {
   border: 1px solid #eeeeee;
   border-top: none;
 }
-.projects__link {
-  display: block;
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.projects__link:hover, .projects__link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 .projects__tag {
   color: #757575;
   font-size: 16px;
@@ -959,6 +948,18 @@ button:hover {
 .projects__img-wrap {
   position: relative;
   overflow: hidden;
+}
+
+.project__link {
+  display: block;
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project__link:hover, .project__link:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project__description {
@@ -979,7 +980,7 @@ button:hover {
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
-  color: #FFF;
+  color: #fff;
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
