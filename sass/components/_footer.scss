@@ -46,10 +46,9 @@
    justify-content: center;
    width: 206px;
    height: 44px;
+   gap: 10px;
 }
-.footer-socials__item:not(:last-child) {
-   margin-right: 10px;
-}
+
 .footer-socials__link {
    display: flex;
    justify-content: center;

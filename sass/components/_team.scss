@@ -7,13 +7,13 @@
    font-weight: 500;
    font-size: 16px;
    line-height: 1.18;
-   color: var(--main-color);
+   color: $main-color;
    margin-top: 30px;
    margin-bottom: 10px;
 }
 
  &__subtitle {
-   color: var(--title-color);
+   color: $title-color;
    font-size: 16px;
    line-height: 1.18;
    margin-bottom: 16px;
@@ -36,6 +36,7 @@
    display: flex;
    justify-content: center;
    margin: 16px auto 30px;
+   gap: 10px;
 }
 
 .team__socials__item {
